@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="antrum.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="antrum.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="antrum.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="antrum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loginLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loginwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sqliteManage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UltrasoundArtficialIntellgenceLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UltrasoundArtificialIntelligence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="acquireImageLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="acquireImageWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseInfoLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="newpatient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tableItemWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="titleBarWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="baseinfopage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UMessageBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="waitDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matchRuler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="newPatientLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="computeDistanceDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EssentialInformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InformationItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SmoothCurve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="essentialLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClinicalInformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clinicalLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="selectDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NutritionalInformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nutritionalLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="infotabwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="form.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nutritiontab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reportWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reportLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraSelect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="loginwidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="UltrasoundArtificialIntelligence.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="acquireImage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="baseinfopage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="newpatient.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="titleBarWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="infotabwidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="form.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="nutritiontab.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="reportWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="loginLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="newPatientLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="loginwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="sqliteManage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="UltrasoundArtficialIntellgenceLogic.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="UltrasoundArtificialIntelligence.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="acquireImageLogic.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="BaseInfoLogic.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="newpatient.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="tableItemWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="titleBarWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="UMessageBox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="waitDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="matchRuler.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="computeDistanceDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="EssentialInformation.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="InformationItem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="baseinfopage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="acquireImageWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SmoothCurve.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="essentialLogic.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ClinicalInformation.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="clinicalLogic.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="selectDisplay.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="NutritionalInformation.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="nutritionalLogic.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="infotabwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="form.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="nutritiontab.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="reportWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="reportLogic.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="cameraSelect.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="antrum.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resouce\favicon32.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
